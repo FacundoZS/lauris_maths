@@ -1,0 +1,17 @@
+f :: Integer -> Integer
+f x = 2 * x 
+
+
+signo :: Float -> Float
+signo x | x >= 0 = 1 
+        |  x < 0 = (-1)
+		
+
+
+
+sumaDeTres :: Integer -> Integer -> Integer -> Integer 	
+sumaDeTres x1 x2 x3 = x1 + x2 + x3 
+
+factorial :: Integer -> Integer
+factorial n | n == 0 = 1
+            | otherwise = n * factorial (n-1) 
